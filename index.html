@@ -6,8 +6,16 @@
 
     <body>
         <script type="module" src="./src/index.js"></script>
+        <script type="module">
+            import { getUser } from './src/image.js';
+            
+            getUser().forEach(user => {
+                console.log(`User ${user.name} is ${user.age} years old!`);
+            });
+
+        </script>
         <h1>
-            See the Debugger Console...
+            For Output, Please See the Debugger Console...
         </h1>
     </body>
 
