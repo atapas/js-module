@@ -1,5 +1,5 @@
 
-import { sum as add, sub } from './calc.js';
+import * as Calc from './calc.js';
 
-console.log('The Sum is', add(2,3));
-console.log('The Sub is', sub(5,3));
+console.log('The Sum is', Calc.sum(2,3));
+console.log('The Sub is', Calc.sub(5,3));
